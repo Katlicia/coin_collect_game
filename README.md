@@ -1,5 +1,5 @@
 # coin_collect_game
-Basic coin collector game.
+Basic coin collector game with pygame.
 
 This mini-game project's whole purpose was to learn object orianted programming and actually make a game to understand how it works.
 
