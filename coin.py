@@ -12,6 +12,8 @@ class Coin:
         self.coin_spawn_time = pygame.time.get_ticks() + self.coin_time
 
     def check_collision(self, player_pos):
+        # We use basic mathematical equations to check collisions.
+        # Since they are 2 circles we use their radius'.
         distance = math.sqrt((self.coin_pos.x - player_pos.x) ** 2 + (self.coin_pos.y - player_pos.y) ** 2)
         if distance < self.radius + 40:
             return True
