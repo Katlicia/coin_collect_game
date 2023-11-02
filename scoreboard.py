@@ -5,7 +5,7 @@ screen = pygame.display.set_mode((1280, 720))
 class ScoreBoard:
 
     def __init__(self):
-        self.font = pygame.font.Font("game_font/pixel_font.ttf", 36)
+        self.font = pygame.font.Font("pixel_font.ttf", 36)
         self.score = 0
     
     def showScore(self):
