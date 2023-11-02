@@ -3,7 +3,7 @@ Basic coin collector game.
 
 This mini-game project's whole purpose was to learn object orianted programming and actually make a game to understand how it works.
 
-I know the class' constructor site is ruined since it doesn't want any argumants.
+I know the class' constructor site is ruined since it doesn't take any argumants.
 
 I was just getting to know what OOP is by the time I started this game. 
 
